@@ -1,5 +1,5 @@
-import Button from "./Button";
 import React, { useState } from "react";
+import Button from "./Button";
 
 function App() {
     const [openedEditor, setOpenedEditor] = useState('html');
@@ -28,15 +28,15 @@ function App() {
             <div className="editor-container">
                 {
                     openedEditor === 'html' ? (
-                        <p>The html editor is open</p>
+                        <p>The HTML editor is open</p>
                     ) : openedEditor === 'css' ? (
-                        <p>The css editor is open</p>
+                        <p>The CSS editor is open</p>
                     ) : (
                         <p>The JavaScript editor is open</p>
                     )
                 }
             </div>
         </div>
-    );
+    )
 }
 export default App;
