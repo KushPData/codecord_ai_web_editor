@@ -21,6 +21,7 @@ const Editor = ({ language, value, setEditorState }) => {
 
     return (
         <div className="editor-container">
+            <p>The {language} editor is open</p>
             <div className="editor-container">
 
                 <div style={{ marginBottom: "10px" }}>
